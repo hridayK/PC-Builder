@@ -1,0 +1,27 @@
+{
+  "name": "PC-Builder",
+  "version": "1.0.0",
+  "description": "A website which helps people build PCs by helping people get the correct compatible components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hridayK/PC-Builder.git"
+  },
+  "keywords": [],
+  "author": "Hriday Keswani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hridayK/PC-Builder/issues"
+  },
+  "homepage": "https://github.com/hridayK/PC-Builder#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
