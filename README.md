@@ -1,7 +1,7 @@
 # PC-Builder
 A website which helps people build PCs by helping people get the correct compatible components
 
-#How to run:
+# How to run:
 ```
 npm start
 ```
