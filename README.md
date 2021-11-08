@@ -3,5 +3,11 @@ A website which helps people build PCs by helping people get the correct compati
 
 # How to run:
 ```
-npm start
+npm init -y
+npm i express ejs
+```
+to install nodemon:
+
+```
+npm i --save-dev
 ```
