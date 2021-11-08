@@ -1,0 +1,1712 @@
+{
+    "wired-network-card": [
+        {
+            "brand": "Acer",
+            "model": "NP.OTH11.005",
+            "interface": "USB 1.0",
+            "port_speed": {
+                "bits_per_second": 10000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "0.00"
+            ]
+        },
+        {
+            "brand": "Asus",
+            "model": "NX1101",
+            "interface": "PCI",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "149.99"
+            ]
+        },
+        {
+            "brand": "Asus",
+            "model": "XG-C100C",
+            "interface": "PCIe x4",
+            "port_speed": {
+                "bits_per_second": 10000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "92.99"
+            ]
+        },
+        {
+            "brand": "Belkin",
+            "model": "B2B145-BLK",
+            "interface": "USB Type-C",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": "Black",
+            "price": [
+                "USD",
+                "23.99"
+            ]
+        },
+        {
+            "brand": "Belkin",
+            "model": "F2CU040btBLK",
+            "interface": "USB Type-C",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "29.69"
+            ]
+        },
+        {
+            "brand": "Belkin",
+            "model": "F4U047-RS",
+            "interface": "USB 1.0",
+            "port_speed": {
+                "bits_per_second": 100000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "0.00"
+            ]
+        },
+        {
+            "brand": "Belkin",
+            "model": "F5D5000",
+            "interface": "PCI",
+            "port_speed": {
+                "bits_per_second": 100000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "12.95"
+            ]
+        },
+        {
+            "brand": "Cisco",
+            "model": "N2XX-ABPCI03-M3=",
+            "interface": "PCIe x4",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 4,
+            "color": null,
+            "price": [
+                "USD",
+                "0.00"
+            ]
+        },
+        {
+            "brand": "D-Link",
+            "model": "DFE530TX+",
+            "interface": "PCI",
+            "port_speed": {
+                "bits_per_second": 100000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "13.38"
+            ]
+        },
+        {
+            "brand": "D-Link",
+            "model": "DGE-530T",
+            "interface": "PCI",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "15.99"
+            ]
+        },
+        {
+            "brand": "D-Link",
+            "model": "DUB-1312",
+            "interface": "USB 3.0",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": "Black",
+            "price": [
+                "USD",
+                "29.98"
+            ]
+        },
+        {
+            "brand": "D-Link",
+            "model": "DUB-E100",
+            "interface": "USB 1.0",
+            "port_speed": {
+                "bits_per_second": 100000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "100.18"
+            ]
+        },
+        {
+            "brand": "D-Link",
+            "model": "DXE-820T",
+            "interface": "PCIe x8",
+            "port_speed": {
+                "bits_per_second": 10000000000
+            },
+            "port_number": 2,
+            "color": null,
+            "price": [
+                "USD",
+                "726.10"
+            ]
+        },
+        {
+            "brand": "EDUP",
+            "model": "EP-9602GS",
+            "interface": "PCIe x1",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": "Black",
+            "price": [
+                "USD",
+                "0.00"
+            ]
+        },
+        {
+            "brand": "Edimax",
+            "model": "EN-9130TXL",
+            "interface": "PCI",
+            "port_speed": {
+                "bits_per_second": 100000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "0.00"
+            ]
+        },
+        {
+            "brand": "Edimax",
+            "model": "EN-9320TX-E",
+            "interface": "PCIe x4",
+            "port_speed": {
+                "bits_per_second": 10000000000
+            },
+            "port_number": 1,
+            "color": "Silver / Green",
+            "price": [
+                "USD",
+                "69.90"
+            ]
+        },
+        {
+            "brand": "Edimax",
+            "model": "EU-4208",
+            "interface": "USB 2.0",
+            "port_speed": {
+                "bits_per_second": 100000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "13.90"
+            ]
+        },
+        {
+            "brand": "Edimax",
+            "model": "EU-4306",
+            "interface": "USB 3.0",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "24.99"
+            ]
+        },
+        {
+            "brand": "Gigabyte",
+            "model": "GC-AQC107",
+            "interface": "PCIe x4",
+            "port_speed": {
+                "bits_per_second": 10000000000
+            },
+            "port_number": 1,
+            "color": "Black / White",
+            "price": [
+                "USD",
+                "0.00"
+            ]
+        },
+        {
+            "brand": "Intel",
+            "model": "E10G42BT",
+            "interface": "PCIe x8",
+            "port_speed": {
+                "bits_per_second": 10000000000
+            },
+            "port_number": 2,
+            "color": null,
+            "price": [
+                "USD",
+                "0.00"
+            ]
+        },
+        {
+            "brand": "Intel",
+            "model": "E1G42ET",
+            "interface": "PCIe x4",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 2,
+            "color": null,
+            "price": [
+                "USD",
+                "0.00"
+            ]
+        },
+        {
+            "brand": "Intel",
+            "model": "E1G42ETBLK",
+            "interface": "PCIe x4",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 2,
+            "color": null,
+            "price": [
+                "USD",
+                "50.30"
+            ]
+        },
+        {
+            "brand": "Intel",
+            "model": "E1G44ET2",
+            "interface": "PCIe x4",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 4,
+            "color": null,
+            "price": [
+                "USD",
+                "436.50"
+            ]
+        },
+        {
+            "brand": "Intel",
+            "model": "E1G44ET2BLK",
+            "interface": "PCIe x4",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 4,
+            "color": null,
+            "price": [
+                "USD",
+                "382.20"
+            ]
+        },
+        {
+            "brand": "Intel",
+            "model": "E1G44HT",
+            "interface": "PCIe x4",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 4,
+            "color": null,
+            "price": [
+                "USD",
+                "86.00"
+            ]
+        },
+        {
+            "brand": "Intel",
+            "model": "E1G44HTBLK",
+            "interface": "PCIe x4",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 4,
+            "color": null,
+            "price": [
+                "USD",
+                "82.00"
+            ]
+        },
+        {
+            "brand": "Intel",
+            "model": "EXPI9301CT",
+            "interface": "PCIe x1",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "36.00"
+            ]
+        },
+        {
+            "brand": "Intel",
+            "model": "EXPI9301CTBLK",
+            "interface": "PCIe x1",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "28.99"
+            ]
+        },
+        {
+            "brand": "Intel",
+            "model": "EXPI9402PT",
+            "interface": "PCIe x4",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 2,
+            "color": null,
+            "price": [
+                "USD",
+                "0.00"
+            ]
+        },
+        {
+            "brand": "Intel",
+            "model": "EXPI9402PTBLK-1PK",
+            "interface": "PCIe x4",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 2,
+            "color": null,
+            "price": [
+                "USD",
+                "0.00"
+            ]
+        },
+        {
+            "brand": "Intel",
+            "model": "EXPI9402PTG2P20",
+            "interface": "PCIe x4",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 2,
+            "color": "Green / Black",
+            "price": [
+                "USD",
+                "79.00"
+            ]
+        },
+        {
+            "brand": "Intel",
+            "model": "EXPI9404PTL",
+            "interface": "PCIe x4",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 4,
+            "color": null,
+            "price": [
+                "USD",
+                "0.00"
+            ]
+        },
+        {
+            "brand": "Intel",
+            "model": "EXPI9404PTLBLK",
+            "interface": "PCIe x4",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 4,
+            "color": null,
+            "price": [
+                "USD",
+                "0.00"
+            ]
+        },
+        {
+            "brand": "Intel",
+            "model": "EXPI9404PTLBLK-1PK",
+            "interface": "PCIe x4",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 4,
+            "color": null,
+            "price": [
+                "USD",
+                "0.00"
+            ]
+        },
+        {
+            "brand": "Intel",
+            "model": "PWLA8391GT",
+            "interface": "PCI",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "38.29"
+            ]
+        },
+        {
+            "brand": "Intel",
+            "model": "PWLA8391GTBLK",
+            "interface": "PCI",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "69.25"
+            ]
+        },
+        {
+            "brand": "Intel",
+            "model": "PWLA8391GTBLK-1PK",
+            "interface": "PCI",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "0.00"
+            ]
+        },
+        {
+            "brand": "Intel",
+            "model": "PWLA8391GTLBLK",
+            "interface": "PCI",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "70.54"
+            ]
+        },
+        {
+            "brand": "Intel",
+            "model": "PWLA8490MTBLK",
+            "interface": "PCI-X",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "0.00"
+            ]
+        },
+        {
+            "brand": "Intel",
+            "model": "PWLA8492MT",
+            "interface": "PCI-X",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 2,
+            "color": null,
+            "price": [
+                "USD",
+                "167.02"
+            ]
+        },
+        {
+            "brand": "Intel",
+            "model": "PWLA8492MTBLK5",
+            "interface": "PCI-X",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 2,
+            "color": null,
+            "price": [
+                "USD",
+                "0.00"
+            ]
+        },
+        {
+            "brand": "Intel",
+            "model": "X520-T2",
+            "interface": "PCIe x8",
+            "port_speed": {
+                "bits_per_second": 10000000000
+            },
+            "port_number": 2,
+            "color": "Green / Black",
+            "price": [
+                "USD",
+                "0.00"
+            ]
+        },
+        {
+            "brand": "Intel",
+            "model": "X540-BT2",
+            "interface": "PCIe x8",
+            "port_speed": {
+                "bits_per_second": 10000000000
+            },
+            "port_number": 2,
+            "color": null,
+            "price": [
+                "USD",
+                "0.00"
+            ]
+        },
+        {
+            "brand": "Intel",
+            "model": "X550-T2",
+            "interface": "PCIe x4",
+            "port_speed": {
+                "bits_per_second": 10000000000
+            },
+            "port_number": 2,
+            "color": null,
+            "price": [
+                "USD",
+                "323.18"
+            ]
+        },
+        {
+            "brand": "Lenovo",
+            "model": "4X90E51405",
+            "interface": "USB 3.0",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "25.99"
+            ]
+        },
+        {
+            "brand": "Lenovo",
+            "model": "7ZT7A00482",
+            "interface": "PCIe x1",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 2,
+            "color": "Green / Black",
+            "price": [
+                "USD",
+                "51.77"
+            ]
+        },
+        {
+            "brand": "Linksys",
+            "model": "USB3GIG",
+            "interface": "USB 3.0",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": "Black",
+            "price": [
+                "USD",
+                "26.17"
+            ]
+        },
+        {
+            "brand": "Netgear",
+            "model": "GA311",
+            "interface": "PCI",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "34.28"
+            ]
+        },
+        {
+            "brand": "Plugable",
+            "model": "USB3-E1000",
+            "interface": "USB 3.0",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "16.95"
+            ]
+        },
+        {
+            "brand": "Plugable",
+            "model": "USBC-E1000",
+            "interface": "USB Type-C",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "17.95"
+            ]
+        },
+        {
+            "brand": "QLogic",
+            "model": "QLE3242-CU-CK",
+            "interface": "PCIe x8",
+            "port_speed": {
+                "bits_per_second": 10000000000
+            },
+            "port_number": 2,
+            "color": null,
+            "price": [
+                "USD",
+                "114.89"
+            ]
+        },
+        {
+            "brand": "QNAP",
+            "model": "QXG-10G1T",
+            "interface": "PCIe x4",
+            "port_speed": {
+                "bits_per_second": 10000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "89.00"
+            ]
+        },
+        {
+            "brand": "Rosewill",
+            "model": "RC-400",
+            "interface": "PCI",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "0.00"
+            ]
+        },
+        {
+            "brand": "Rosewill",
+            "model": "RC-400-LX",
+            "interface": "PCI",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "12.41"
+            ]
+        },
+        {
+            "brand": "Rosewill",
+            "model": "RC-401-EX",
+            "interface": "PCIe x1",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "0.00"
+            ]
+        },
+        {
+            "brand": "Rosewill",
+            "model": "RC-402",
+            "interface": "PCI",
+            "port_speed": {
+                "bits_per_second": 100000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "8.50"
+            ]
+        },
+        {
+            "brand": "Rosewill",
+            "model": "RC-404",
+            "interface": "PCI",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "14.99"
+            ]
+        },
+        {
+            "brand": "Rosewill",
+            "model": "RC-411",
+            "interface": "PCIe x1",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "14.99"
+            ]
+        },
+        {
+            "brand": "Rosewill",
+            "model": "RC-NIC416Dual",
+            "interface": "PCIe x4",
+            "port_speed": {
+                "bits_per_second": 10000000000
+            },
+            "port_number": 2,
+            "color": "Black / Silver",
+            "price": [
+                "USD",
+                "0.00"
+            ]
+        },
+        {
+            "brand": "Rosewill",
+            "model": "RNF-405U",
+            "interface": "USB 2.0",
+            "port_speed": {
+                "bits_per_second": 100000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "0.00"
+            ]
+        },
+        {
+            "brand": "Rosewill",
+            "model": "RNG-406U",
+            "interface": "USB 3.0",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "14.98"
+            ]
+        },
+        {
+            "brand": "Rosewill",
+            "model": "RNG-407-Dual",
+            "interface": "PCIe x1",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 2,
+            "color": null,
+            "price": [
+                "USD",
+                "34.99"
+            ]
+        },
+        {
+            "brand": "Rosewill",
+            "model": "RNG-408U",
+            "interface": "USB Type-C",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": "Black",
+            "price": [
+                "USD",
+                "19.98"
+            ]
+        },
+        {
+            "brand": "SIIG",
+            "model": "CN-GP1011-S3",
+            "interface": "PCI",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "29.99"
+            ]
+        },
+        {
+            "brand": "SIIG",
+            "model": "CN-GP1021-S3",
+            "interface": "PCIe x1",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "33.49"
+            ]
+        },
+        {
+            "brand": "SIIG",
+            "model": "CN-GP1111-S1",
+            "interface": "PCIe x4",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 2,
+            "color": null,
+            "price": [
+                "USD",
+                "0.00"
+            ]
+        },
+        {
+            "brand": "SIIG",
+            "model": "CN-GP2011-S1",
+            "interface": "PCIe x1",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 2,
+            "color": null,
+            "price": [
+                "USD",
+                "0.00"
+            ]
+        },
+        {
+            "brand": "SIIG",
+            "model": "CN-GP4011-S1",
+            "interface": "PCIe x4",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 4,
+            "color": null,
+            "price": [
+                "USD",
+                "0.00"
+            ]
+        },
+        {
+            "brand": "SIIG",
+            "model": "CN-GP4111-S1",
+            "interface": "PCIe x4",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 4,
+            "color": null,
+            "price": [
+                "USD",
+                "0.00"
+            ]
+        },
+        {
+            "brand": "SIIG",
+            "model": "JU-NE0511-S1",
+            "interface": "USB 3.0",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "0.00"
+            ]
+        },
+        {
+            "brand": "SIIG",
+            "model": "JU-NE0621-S2",
+            "interface": "USB 3.0",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": "White",
+            "price": [
+                "USD",
+                "13.99"
+            ]
+        },
+        {
+            "brand": "SIIG",
+            "model": "JU-NE0711-S1",
+            "interface": "USB 3.0",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": "Black",
+            "price": [
+                "USD",
+                "18.73"
+            ]
+        },
+        {
+            "brand": "StarTech",
+            "model": "PEX100S",
+            "interface": "PCIe x1",
+            "port_speed": {
+                "bits_per_second": 100000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "18.32"
+            ]
+        },
+        {
+            "brand": "StarTech",
+            "model": "ST10000SPEX",
+            "interface": "PCIe x4",
+            "port_speed": {
+                "bits_per_second": 10000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "532.92"
+            ]
+        },
+        {
+            "brand": "StarTech",
+            "model": "ST1000BT32",
+            "interface": "PCI",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "10.99"
+            ]
+        },
+        {
+            "brand": "StarTech",
+            "model": "ST1000SMPEX",
+            "interface": "Mini-PCIe",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "38.99"
+            ]
+        },
+        {
+            "brand": "StarTech",
+            "model": "ST1000SPEX",
+            "interface": "PCIe x1",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "0.00"
+            ]
+        },
+        {
+            "brand": "StarTech",
+            "model": "ST1000SPEX2",
+            "interface": "PCIe x1",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "18.48"
+            ]
+        },
+        {
+            "brand": "StarTech",
+            "model": "ST1000SPEX2L",
+            "interface": "PCIe x1",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "18.98"
+            ]
+        },
+        {
+            "brand": "StarTech",
+            "model": "ST1000SPEX4",
+            "interface": "PCIe x4",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 4,
+            "color": null,
+            "price": [
+                "USD",
+                "287.99"
+            ]
+        },
+        {
+            "brand": "StarTech",
+            "model": "ST1000SPEX42",
+            "interface": "PCIe x4",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 4,
+            "color": null,
+            "price": [
+                "USD",
+                "287.50"
+            ]
+        },
+        {
+            "brand": "StarTech",
+            "model": "ST1000SPEXD2",
+            "interface": "PCIe x1",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 2,
+            "color": null,
+            "price": [
+                "USD",
+                "11.66"
+            ]
+        },
+        {
+            "brand": "StarTech",
+            "model": "ST1000SPEXD3",
+            "interface": "PCIe x1",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 2,
+            "color": null,
+            "price": [
+                "USD",
+                "199.99"
+            ]
+        },
+        {
+            "brand": "StarTech",
+            "model": "ST100S",
+            "interface": "PCI",
+            "port_speed": {
+                "bits_per_second": 100000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "12.43"
+            ]
+        },
+        {
+            "brand": "StarTech",
+            "model": "ST2000PEXPSE",
+            "interface": "PCIe x1",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 2,
+            "color": null,
+            "price": [
+                "USD",
+                "111.97"
+            ]
+        },
+        {
+            "brand": "StarTech",
+            "model": "ST3300U3S",
+            "interface": "USB 3.0",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "50.99"
+            ]
+        },
+        {
+            "brand": "StarTech",
+            "model": "USB21000S2",
+            "interface": "USB 2.0",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "49.99"
+            ]
+        },
+        {
+            "brand": "StarTech",
+            "model": "USB31000NDS",
+            "interface": "USB 3.0",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "28.49"
+            ]
+        },
+        {
+            "brand": "StarTech",
+            "model": "USB31000S",
+            "interface": "USB 1.0",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "23.99"
+            ]
+        },
+        {
+            "brand": "StarTech",
+            "model": "USB31000SPTB",
+            "interface": "USB 3.0",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "33.99"
+            ]
+        },
+        {
+            "brand": "StarTech",
+            "model": "USB31000SPTW",
+            "interface": "USB 3.0",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "33.54"
+            ]
+        },
+        {
+            "brand": "StarTech",
+            "model": "USB31000SW",
+            "interface": "USB 3.0",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "23.99"
+            ]
+        },
+        {
+            "brand": "StarTech",
+            "model": "USB32000SPT",
+            "interface": "USB 3.0",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 2,
+            "color": null,
+            "price": [
+                "USD",
+                "46.94"
+            ]
+        },
+        {
+            "brand": "Supermicro",
+            "model": "AOC-SG-i2",
+            "interface": "PCIe x4",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 2,
+            "color": null,
+            "price": [
+                "USD",
+                "0.00"
+            ]
+        },
+        {
+            "brand": "Supermicro",
+            "model": "SGP-i4",
+            "interface": "PCIe x4",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 4,
+            "color": "Green / Silver",
+            "price": [
+                "USD",
+                "0.00"
+            ]
+        },
+        {
+            "brand": "Syba",
+            "model": "SD-ADA24032",
+            "interface": "USB 3.0",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "0.00"
+            ]
+        },
+        {
+            "brand": "Syba",
+            "model": "SD-PEX24009",
+            "interface": "PCIe x1",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "14.24"
+            ]
+        },
+        {
+            "brand": "Syba",
+            "model": "SD-PEX24055",
+            "interface": "PCIe x4",
+            "port_speed": {
+                "bits_per_second": 10000000000
+            },
+            "port_number": 1,
+            "color": "Green / Black",
+            "price": [
+                "USD",
+                "89.99"
+            ]
+        },
+        {
+            "brand": "Syba",
+            "model": "SI-ADA24037",
+            "interface": "USB 3.0",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "0.00"
+            ]
+        },
+        {
+            "brand": "Syba",
+            "model": "SI-MPE24043",
+            "interface": "Mini-PCIe",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "14.05"
+            ]
+        },
+        {
+            "brand": "Syba",
+            "model": "SI-PEX24042",
+            "interface": "PCIe x1",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 4,
+            "color": "Green / Black",
+            "price": [
+                "USD",
+                "45.99"
+            ]
+        },
+        {
+            "brand": "Syba",
+            "model": "SY-ADA24005",
+            "interface": "USB 1.0",
+            "port_speed": {
+                "bits_per_second": 100000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "0.00"
+            ]
+        },
+        {
+            "brand": "Syba",
+            "model": "SY-ADA24024",
+            "interface": "USB 2.0",
+            "port_speed": {
+                "bits_per_second": 100000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "0.00"
+            ]
+        },
+        {
+            "brand": "Syba",
+            "model": "SY-ADA24027",
+            "interface": "USB 2.0",
+            "port_speed": {
+                "bits_per_second": 100000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "18.95"
+            ]
+        },
+        {
+            "brand": "Syba",
+            "model": "SY-ADA24029",
+            "interface": "USB 2.0",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "19.14"
+            ]
+        },
+        {
+            "brand": "Syba",
+            "model": "SY-ADA24040",
+            "interface": "USB 3.0",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "44.70"
+            ]
+        },
+        {
+            "brand": "Syba",
+            "model": "SY-HUB24047",
+            "interface": "USB 3.0",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 4,
+            "color": "Black",
+            "price": [
+                "USD",
+                "48.94"
+            ]
+        },
+        {
+            "brand": "Syba",
+            "model": "SY-PEX24028",
+            "interface": "PCIe x1",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 2,
+            "color": null,
+            "price": [
+                "USD",
+                "41.44"
+            ]
+        },
+        {
+            "brand": "Syba",
+            "model": "SY-PEX24030",
+            "interface": "PCIe x1",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "22.65"
+            ]
+        },
+        {
+            "brand": "Syba",
+            "model": "SY-PEX24045",
+            "interface": "PCIe x4",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 4,
+            "color": "Green / Black",
+            "price": [
+                "USD",
+                "81.83"
+            ]
+        },
+        {
+            "brand": "Syba",
+            "model": "SY-PEX24056",
+            "interface": "PCIe x4",
+            "port_speed": {
+                "bits_per_second": 10000000000
+            },
+            "port_number": 1,
+            "color": "Green / Black",
+            "price": [
+                "USD",
+                "109.99"
+            ]
+        },
+        {
+            "brand": "TP-Link",
+            "model": "TF-3239DL",
+            "interface": "PCI",
+            "port_speed": {
+                "bits_per_second": 100000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "46.82"
+            ]
+        },
+        {
+            "brand": "TP-Link",
+            "model": "TG-3269",
+            "interface": "PCI",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "0.00"
+            ]
+        },
+        {
+            "brand": "TP-Link",
+            "model": "TG-3468",
+            "interface": "PCIe x1",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "14.99"
+            ]
+        },
+        {
+            "brand": "TP-Link",
+            "model": "UE300",
+            "interface": "USB 3.0",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "12.99"
+            ]
+        },
+        {
+            "brand": "TRENDnet",
+            "model": "TE100-PCIWN",
+            "interface": "PCI",
+            "port_speed": {
+                "bits_per_second": 100000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "0.00"
+            ]
+        },
+        {
+            "brand": "TRENDnet",
+            "model": "TEG-PCITXR",
+            "interface": "PCI",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "19.98"
+            ]
+        },
+        {
+            "brand": "TRENDnet",
+            "model": "TRENDnet TEG-10GECTX 10 Gigabit PCIe Network Adapter",
+            "interface": "PCIe x4",
+            "port_speed": {
+                "bits_per_second": 10000000000
+            },
+            "port_number": 1,
+            "color": "Green / Silver",
+            "price": [
+                "USD",
+                "99.99"
+            ]
+        },
+        {
+            "brand": "TRENDnet",
+            "model": "TUC-ET2G",
+            "interface": "USB Type-C",
+            "port_speed": {
+                "bits_per_second": 2500000000
+            },
+            "port_number": 1,
+            "color": "Black",
+            "price": [
+                "USD",
+                "34.99"
+            ]
+        },
+        {
+            "brand": "Tripp Lite",
+            "model": "U436-000-GB",
+            "interface": "USB Type-C",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": "Black",
+            "price": [
+                "USD",
+                "29.20"
+            ]
+        },
+        {
+            "brand": "V7",
+            "model": "V7UCRJ45-BLK-1N",
+            "interface": "USB Type-C",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": "Black",
+            "price": [
+                "USD",
+                "22.99"
+            ]
+        },
+        {
+            "brand": "VisionTek",
+            "model": "Bigfoot Killer 2100",
+            "interface": "PCIe x1",
+            "port_speed": {
+                "bits_per_second": 1000000000
+            },
+            "port_number": 1,
+            "color": null,
+            "price": [
+                "USD",
+                "0.00"
+            ]
+        }
+    ]
+}

@@ -6,7 +6,12 @@ app.use("/images",express.static("images"));
 app.use("/styles",express.static("styles"));
 
 app.get('/', (req, res) => {
-    res.render('./home/home');
+    res.render('./home');
+    res.end();
+});
+
+app.get('/build', (req,res) => {
+    res.render('./buildStart');
     res.end();
 });
 
