@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose AMD cpu</title>
+</head>
+<body>
+    <h1>Choose CPU:</h1>
+    <ul>
+        <% cpus.cpu.forEach(element => { %>
+            <li><a href="/amd/cpu/<%= element.model %>/motherboards"><%= element.model %></a></li>    
+        <% }); %> 
+    </ul>
+</body>
+</html>
