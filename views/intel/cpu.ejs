@@ -11,7 +11,7 @@
     <br>
     <ul>
         <% cpus.cpu.forEach(element => { %>
-            <% if (element.brand === 'Intel') { %>
+            <% if (element.brand === 'Intel' && element.cores >=6 && (element.integrated_graphics=="Intel UHD Graphics 630")) { %>
                 <li><a href="/intel/cpu/<%= element.model%>/motherboards"><%= element.model %></a></li>
             <% } %>
         <% }); %> 
