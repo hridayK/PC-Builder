@@ -9,5 +9,5 @@ npm i express ejs
 to install nodemon:
 
 ```
-npm i --save-dev nodemone
+npm i --save-dev nodemon
 ```
