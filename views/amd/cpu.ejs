@@ -10,8 +10,9 @@
     <h1>Choose CPU:</h1>
     <ul>
         <% cpus.cpu.forEach(element => { %>
-            <li><a href="/amd/cpu/<%= element.model %>/motherboards"><%= element.model %></a></li>    
-        <% }); %> 
+            <% if(element.brand=="AMD" && element.cores>=6 && element.multithreading==true && element.tdp<=105 && !element.model.includes('nm')){ %>
+                <li><a href="/amd/cpu/<%= element.model %>/motherboards"><%= element.model %></a></li> 
+        <% }}); %> 
     </ul>
 </body>
 </html>

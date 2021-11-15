@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Motherboard</title>
+</head>
+<body>
+    <% mbds.motherboard.forEach(element => { %>
+        <% if(selcpu.includes("58") || selcpu.includes("56") || selcpu.includes("59")){%>
+            <% if(element.socket=="AM4" && (element.model.includes("B550") || element.model.includes("B450") || element.model.includes("X570") || element.model.includes("X470") || element.model.includes("A520")) && !element.model.includes("/")){ %>
+                <li><a href="motherboards/<%= element.model %>/gpu"><%= element.model %></a></li>
+    <% }}}); %>
+
+    <% mbds.motherboard.forEach(element => { %>
+        <% if(selcpu.includes("3")){%>
+            <% if(element.socket=="AM4" && (element.model.includes("B550") || element.model.includes("B450") || element.model.includes("X570") || element.model.includes("X470") || element.model.includes("A520") || element.model.includes("X370") || element.model.includes("B350")) && !element.model.includes("/")){ %>
+                <li><a href="motherboards/<%= element.model %>/gpu"><%= element.model %></a></li>
+    <% }}}); %>
+
+    <% mbds.motherboard.forEach(element => { %>
+        <% if(selcpu.includes("2")){%>
+            <% if(element.socket=="AM4" && (element.model.includes("A320") || element.model.includes("B450") || element.model.includes("X570") || element.model.includes("X470") || element.model.includes("X370") || element.model.includes("B350")) && !element.model.includes("/")){ %>
+                <li><a href="motherboards/<%= element.model %>/gpu"><%= element.model %></a></li>
+    <% }}}); %>
+
+    <% mbds.motherboard.forEach(element => { %>
+        <% if(selcpu.includes("1")){%>
+            <% if(element.socket=="AM4" && (element.model.includes("A320") || element.model.includes("B450") || element.model.includes("X470") || element.model.includes("X370") || element.model.includes("B350")) && !element.model.includes("/")){ %>
+                <li><a href="motherboards/<%= element.model %>/gpu"><%= element.model %> </a></li>
+    <% }}}); %>
+</body>
+</html>

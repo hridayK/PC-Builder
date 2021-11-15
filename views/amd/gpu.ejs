@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose GPU</title>
+</head>
+<body>
+    <h1>Choose GPU</h1>
+    <% gpu.videoCard.forEach(element => {%>
+        <% if(element.core_clock != undefined && element.vram.total >= 4000000000 && element.core_clock.cycles >= 1392000000 && !element.chipset.includes("Quadro") && !element.chipset.includes("Titan")){ %>
+            <li><a href="gpu/<%= element.chipset %>/coolers"><%= element.chipset %></a></li>
+    <% }}); %>
+</body>
+</html>
