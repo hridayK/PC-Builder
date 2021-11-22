@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+*{
+    background: #ddd;
+}
+
+.price{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.heading h1{
+    font-family: Prompt, sans-serif;
+    color: rgb(104, 36, 167);
+}
+
+.listing{
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.listing li{
+    list-style: none;
+}
+
+.listing a{
+    /* text-decoration: none; */
+    color: black;
+    font-weight: bold;
+    font-family: Roboto, sans-serif;
+}
+
+.details{
+    color: rgb(82, 81, 81);
+    font-family: Noto Serif, serif;
+}
+
+.heading{
+    width: 90vw;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}

@@ -12,8 +12,11 @@
     color: white;
     height: 60px;
     font-family: 'Source Sans Pro', sans-serif;
-    position: sticky;
+    overflow: hidden;
 }
+
+
+
 .navbarItem{
     display: flex;
     justify-content: center;
@@ -150,3 +153,141 @@ flex: 7;
     border: 1px solid gray;
     cursor: pointer;
 }
+
+.buildButton:hover{
+    transform: scale(1.025);
+    transition: 0.5s ease;
+    color: white;
+    background-color: #c165e2;
+    border: 1px solid rgb(88, 88, 88);
+}
+
+.checkout{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.leftCheckout{
+    flex: 1;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.rightCheckout{
+    flex:1;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerCheckOut{
+    height: 20rem;
+    width: 19rem;
+    border-radius: 15px;
+    border: 2px solid rgb(165, 159, 159);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.leftCheckout{
+    border-right: 1px solid black;
+    border-top: 3px solid black;
+}
+
+.rightCheckout{
+    border-top: 3px solid black;
+}
+
+#checkoutIcons{
+    font-size: 100px;
+    margin-top: 5rem;
+    color: #1F1B22;
+}
+
+.checkoutText{
+    padding: 10px;
+    margin-top: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+.containerCheckOut:hover{
+opacity: 0.5;
+}
+
+@media screen and (max-width:2000px) {
+    img.headerImg{
+        width: 405px;
+        height: 350px;
+        margin-top: 50px;
+        margin-left: 55px;
+    
+    }
+
+    .leftHeader{
+        margin-left: 20px;
+    }
+
+    h1.leftHeaderText{
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    
+
+}
+
+@media screen and (max-width:375px) {
+    .navbar{
+        width: 100%;
+    }
+
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+
+   img.headerImg{
+        width: 250px;
+        height: 200px;
+        margin-top: 80px;
+        margin-left: 50px;
+
+        
+    }
+
+    .checkout{
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1.leftHeaderText{
+        font-size: 40px;
+        font-family: 'Lora', serif;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 20px;        
+    }
+    .leftHeader{
+        margin-left: 0;
+    }
+
+    .buildButton{
+        width: 300px;
+        margin-left: 120px;
+        position: relative;
+        top: 20px;
+    }
+    .header{
+        height: 100vh;
+    }
+
+    
+}
+

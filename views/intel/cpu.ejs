@@ -4,15 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/select.css">
     <title>Choose a CPU</title>
 </head>
 <body>
-    <h1>Choose a CPU</h1>
+    <div class="heading">
+        <h1>Choose a CPU</h1>
+    </div>
     <br>
     <ul>
         <% cpus.cpu.forEach(element => { %>
-            <% if (element.brand === 'Intel' && element.cores >=6 && (element.integrated_graphics=="Intel UHD Graphics 630")) { %>
-                <li><a href="/intel/cpu/<%= element.model%>/motherboards"><%= element.model %></a></li>
+            <% if (element.brand === 'Intel' && element.cores >=6 && ((element.integrated_graphics=="Intel UHD Graphics 630") || (element.integrated_graphics=="Intel UHD Graphics 750"))) { %>
+                <div class="listing">
+                    <li><a href="/intel/cpu/<%= element.brand %> <%= element.model%>/motherboards"><%= element.brand %> <%= element.model %></a></li>
+                    <% if(element.price[1]!="0.00"){ %>
+                        <p class="price">₹<%= Math.round(parseFloat(element.price[1])*74.3) %> </p>
+                    <% }else{ %>
+                        <p class="price">Price NA</p>
+                    <% } %>
+                    <p class="details">Cores: <%= element.cores%>, Multithreading: <%= element.multithreading %>, TDP: <%= element.tdp %> watts</p>
+                </div>
+                
             <% } %>
         <% }); %> 
     </ul>

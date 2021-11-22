@@ -1,34 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="/styles/select.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Choose Motherboard</title>
 </head>
 <body>
-    <% mbds.motherboard.forEach(element => { %>
-        <% if(selcpu.includes("58") || selcpu.includes("56") || selcpu.includes("59")){%>
-            <% if(element.socket=="AM4" && (element.model.includes("B550") || element.model.includes("B450") || element.model.includes("X570") || element.model.includes("X470") || element.model.includes("A520")) && !element.model.includes("/")){ %>
-                <li><a href="motherboards/<%= element.model %>/gpu"><%= element.model %></a></li>
-    <% }}}); %>
+        <div class="heading">
+            <h1>Choose a Motherboard</h1>
+        </div>
+        <% mbds.motherboard.forEach(element => { %>
+            <% if(selcpu.includes("58") || selcpu.includes("56") || selcpu.includes("59")){%>
+                <% if(element.socket=="AM4" && (element.model.includes("B550") || element.model.includes("B450") || element.model.includes("X570") || element.model.includes("X470") || element.model.includes("A520")) && !element.model.includes("/")){ %>
+                    <div class="listing">
+                        <li><a href="motherboards/<%= element.brand%> <%= element.model %>/gpu"><%= element.brand%> <%= element.model %></a></li>
+                        <% if(element.price[1]!="0.00"){ %>
+                            <p class="price">₹<%= Math.round(Math.round(parseFloat(element.price[1])*74.3)) %> </p>
+                        <% }else{ %>
+                            <p class="price">Price NA</p>
+                        <% } %>
+                        <p class="details">Socket: <%= element.socket %> , RAM slots: <%= element.ram_slots %>, Maximum RAM: <%= element.max_ram.total/1000000000 %> GB, Colour: <%= element.color %> </p>
+                    </div>
+        <% }}}); %>
 
-    <% mbds.motherboard.forEach(element => { %>
-        <% if(selcpu.includes("3")){%>
-            <% if(element.socket=="AM4" && (element.model.includes("B550") || element.model.includes("B450") || element.model.includes("X570") || element.model.includes("X470") || element.model.includes("A520") || element.model.includes("X370") || element.model.includes("B350")) && !element.model.includes("/")){ %>
-                <li><a href="motherboards/<%= element.model %>/gpu"><%= element.model %></a></li>
-    <% }}}); %>
+        <% mbds.motherboard.forEach(element => { %>
+            <% if(selcpu.includes("3")){%>
+                <% if(element.socket=="AM4" && (element.model.includes("B550") || element.model.includes("B450") || element.model.includes("X570") || element.model.includes("X470") || element.model.includes("A520") || element.model.includes("X370") || element.model.includes("B350")) && !element.model.includes("/")){ %>
+                    <div class="listing">
+                        <li><a href="motherboards/<%= element.brand%> <%= element.model %>/gpu"><%= element.brand%> <%= element.model %></a></li>
+                        <% if(element.price[1]!="0.00"){ %>
+                            <p class="price">₹<%= Math.round(parseFloat(element.price[1])*74.3) %> </p>
+                        <% }else{ %>
+                            <p class="price">Price NA</p>
+                        <% } %>
+                        <p class="details">Socket: <%= element.socket %> , RAM slots: <%= element.ram_slots %>, Maximum RAM: <%= element.max_ram.total/1000000000 %> GB, Colour: <%= element.color %> </p>
+                    </div>
+        <% }}}); %>
 
-    <% mbds.motherboard.forEach(element => { %>
-        <% if(selcpu.includes("2")){%>
-            <% if(element.socket=="AM4" && (element.model.includes("A320") || element.model.includes("B450") || element.model.includes("X570") || element.model.includes("X470") || element.model.includes("X370") || element.model.includes("B350")) && !element.model.includes("/")){ %>
-                <li><a href="motherboards/<%= element.model %>/gpu"><%= element.model %></a></li>
-    <% }}}); %>
+        <% mbds.motherboard.forEach(element => { %>
+            <% if(selcpu.includes("2")){%>
+                <% if(element.socket=="AM4" && (element.model.includes("A320") || element.model.includes("B450") || element.model.includes("X570") || element.model.includes("X470") || element.model.includes("X370") || element.model.includes("B350")) && !element.model.includes("/")){ %>
+                    <div class="listing">
+                        <li><a href="motherboards/<%= element.brand%> <%= element.model %>/gpu"><%= element.brand%> <%= element.model %></a></li>
+                        <% if(element.price[1]!="0.00"){ %>
+                            <p class="price">₹<%= Math.round(parseFloat(element.price[1])*74.3) %> </p>
+                        <% }else{ %>
+                            <p class="price">Price NA</p>
+                        <% } %>
+                        <p class="details">Socket: <%= element.socket %> , RAM slots: <%= element.ram_slots %>, Maximum RAM: <%= element.max_ram.total/1000000000 %> GB, Colour: <%= element.color %> </p>
+                    </div>
+        <% }}}); %>
 
-    <% mbds.motherboard.forEach(element => { %>
-        <% if(selcpu.includes("1")){%>
-            <% if(element.socket=="AM4" && (element.model.includes("A320") || element.model.includes("B450") || element.model.includes("X470") || element.model.includes("X370") || element.model.includes("B350")) && !element.model.includes("/")){ %>
-                <li><a href="motherboards/<%= element.model %>/gpu"><%= element.model %> </a></li>
-    <% }}}); %>
+        <% mbds.motherboard.forEach(element => { %>
+            <% if(selcpu.includes("1")){%>
+                <% if(element.socket=="AM4" && (element.model.includes("A320") || element.model.includes("B450") || element.model.includes("X470") || element.model.includes("X370") || element.model.includes("B350")) && !element.model.includes("/")){ %>
+                    <div class="listing">
+                        <li><a href="motherboards/<%= element.brand%> <%= element.model %>/gpu"><%= element.brand%> <%= element.model %></a></li>
+                        <% if(element.price[1]!="0.00"){ %>
+                            <p class="price">₹<%= Math.round(parseFloat(element.price[1])*74.3) %> </p>
+                        <% }else{ %>
+                            <p class="price">Price NA</p>
+                        <% } %>
+                        <p class="details">Socket: <%= element.socket %> , RAM slots: <%= element.ram_slots %>, Maximum RAM: <%= element.max_ram.total/1000000000 %> GB, Colour: <%= element.color %> </p>
+                    </div>
+        <% }}}); %>
 </body>
 </html>

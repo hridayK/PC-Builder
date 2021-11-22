@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/op.css">
+    <title>Your Selection:</title>
+</head>
+<body>
+    <div class="heading">
+        <h1><span style="color: rgb(107, 107, 226);">PC</span>Builder</h1>
+    </div>
+    <hr>
+    <div id="componentList">
+        <div id="page">
+            <div class="printHead">
+                <h1>Your Selection of Components:</h1>
+            </div>
+            <div class="components">
+                <p class="componentType">CPU: </p><p class="componentName"><%= cpuName %></p>
+                <p class="componentType">Motherboard: </p><p class="componentName"><%= motherboardName %></p>
+                <p class="componentType">GPU: </p><p class="componentName"><%= gpuName %></p>
+                <p class="componentType">Cooler: </p><p class="componentName"><%= coolerName %></p>
+                <p class="componentType">Storage: </p><p class="componentName"><%= storageName %></p>
+                <p class="componentType">RAM: </p><p class="componentName"><%= ramName %></p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="foot">
+        <input class="btm-btn" type="button" value="Print" onclick="printDiv()">
+        <input class="btm-btn" type="button" value="Home" onclick="window.location.href='/'">
+    </div>
+</body>
+<script>
+    function printDiv() {
+        var printContents = document.getElementById("page").innerHTML;
+        var originalContents = document.body.innerHTML;
+        document.body.innerHTML = printContents;
+        window.print();
+        document.body.innerHTML = originalContents;
+    }
+</script>
+</html>
