@@ -5,23 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/select.css">
-    <title>Choose GPU</title>
+    <title>CPU-RAM</title>
 </head>
 <body>
     <div class="heading">
-        <h1>Choose GPU</h1>
+        <h1>Choose RAM Drive</h1>
     </div>
-    <% gpu.videoCard.forEach(element => {%>
-        <% if(element.core_clock != undefined && element.vram.total >= 4000000000 && element.core_clock.cycles >= 1392000000 && !element.chipset.includes("Quadro") && !element.chipset.includes("Titan")){ %>
+        <% ram.memory.forEach(element => { %>
             <div class="listing">
-                <li><a href="gpu/<%= element.brand %> <%= element.chipset %>/coolers"><%= element.brand %> <%= element.chipset %></a></li>
+                <li><a href="ram/<%= element.brand %> <%= element.model %>/output"><%= element.brand %> <%= element.model %></a></li>
                 <% if(element.price[1]!="0.00"){ %>
                     <p class="price">₹<%= Math.round(Math.round(parseFloat(element.price[1])*74.3)) %> </p>
                 <% }else{ %>
                     <p class="price">Price: NA</p>
                 <% } %>
-                <p class="details">VRAM: <%= element.vram.total/1000000000 %> GB</p>
+                <p class="details">Physical Memory: <%= element.module_size.total/1000000000 %> GB, Type: <%= element.module_type %></p>
             </div>
-    <% }}); %>
+        <% }); %>  
 </body>
 </html>

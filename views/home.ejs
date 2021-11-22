@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/styles/home.css">
+    <link rel="stylesheet" href="../styles/home.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,39 +23,54 @@
         </div>
     
         <div class="center">
-            
-           <a href="">BUILDS<i class="fas fa-caret-down"></i></a>
-           <a href="">CUSTOM<i class="fas fa-caret-down"></i> </a>
         </div>
-    
+
         <div class="right">
-    
-    
             <div class="containerRight">
-                <a href="">CONTACT</a>
                 <i class="fas fa-user-circle"></i>
-            </div>
-            
-    
+            </div>    
         </div>
+        
     </div>
     
     
     <div class="header">
     
     <div class="leftHeader">
-    <img src="/images/image01.png" style="width:450px;height: 350px; margin-top: 50px; margin-left: 15px;" alt="Custom CPU">
+    <img src="../images/image01.png" class="headerImg" alt="Custom CPU">
     
     <h1 class="leftHeaderText">Finding perfect match to your desktop needs made easy.</h1>
     </div>
     
     <div class="rightHeader">
     
-        <form action="/build">
-            <button class="buildButton">Build your own</button>
-        </form>
+    <button class="buildButton" onclick="location.href='./build'">Build your own</button>
+    
     </div>
     
     </div>
+
+
+<div class="checkout">
+
+<div class="leftCheckout">
+<div class="containerCheckOut">
+    <i class="fas fa-fan" id="checkoutIcons"></i>
+    <h2 class="checkoutText">Check out our battle tested custom builds</h2>
+</div>
+</div>
+
+<div class="rightCheckout">
+<div class="containerCheckOut">
+    <i class="far fa-file-alt" id="checkoutIcons"></i>
+    <h2 class="checkoutText">Read our documentation parts</h2>
+</div>
+
+</div>
+
+</div>
+
+
+
 </body>
 </html>
