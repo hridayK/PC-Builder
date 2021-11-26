@@ -15,6 +15,11 @@ app.get('/build', (req,res) => {
     res.end();
 });
 
+app.get('/doc',(req,res) => {
+    res.render('./documentation/doc');
+    res.end();
+});
+
 const intelRouter = require('./routes/intel');
 const amdRouter = require('./routes/amd');
 
