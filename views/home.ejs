@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles/home.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;600&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,61 +17,58 @@
     <script src="https://kit.fontawesome.com/ae8f1db1af.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="navbar">
+    <header>
+    <nav class="topbar">
+        <div class="flex-container-left">
+        <span class="product-name centre-txt">
+                  <h3>PC<span style="color: white;">Builder</span></h3>       
+        </span>
 
-        <div class="left">
-            <h1> <span class="spanTitle">PC</span> BUILDER</h1>
+        <div class="elements flex-container-right">
+            <span class="txt-space centre-txt active">
+                <a  href="">
+                    <h3>Build your own PC</h3>
+                </a>
+            </span>
+            <span class="txt-space centre-txt">
+                <a  href="/doc"">
+                    <h3>Documentation</h3>
+                </a>
+            </span>
+            
+            <span class="txt-space centre-txt">
+                <a  href="">
+                    <h3>Custom</h3>
+                </a>
+            </span>
         </div>
-    
-        <div class="center">
+    </div>
+    </nav>
+</header>
+    <br>
+    <br>
+    <br>
+    <section >
+        <div class="build-sec">
+            <div class="build-pictx">
+                <a> <img src="images/NZXT PC.png" alt="MOBILE GAMERS ARE NOT REAL GAMERS" class="mainpic"></a>
+                <span><h1>Finding perfect match to your desktop needs made easy</h1></span>
+            </div>
+            <div>
+                <input type="image" src="images/BYO Button.png" width="500px" onclick="location.href='./build'" name="Build Your Own">
+            </div>
+        </div>   
+    </section>
+    <br>
+    <br>
+    <section class="pre-cust-sec ">
+        <div>
+            <a href=""  ><img src="images/prebuilds.png" alt="Console gamers suck too" class="image_cust_doc"></a>
         </div>
-
-        <div class="right">
-            <div class="containerRight">
-                <i class="fas fa-user-circle"></i>
-            </div>    
+        <div class="vl"><br></div >
+        <div class="hl">
+            <a href="/doc"><img  src="images/documentation.png"  alt="Console gamers suck too" class="image_cust_doc"></a>
         </div>
-        
-    </div>
-    
-    
-    <div class="header">
-    
-    <div class="leftHeader">
-    <img src="../images/image01.png" class="headerImg" alt="Custom CPU">
-    
-    <h1 class="leftHeaderText">Finding perfect match to your desktop needs made easy.</h1>
-    </div>
-    
-    <div class="rightHeader">
-    
-    <button class="buildButton" onclick="location.href='./build'">Build your own</button>
-    
-    </div>
-    
-    </div>
-
-
-<div class="checkout">
-
-<div class="leftCheckout">
-<div class="containerCheckOut">
-    <i class="fas fa-fan" id="checkoutIcons"></i>
-    <h2 class="checkoutText">Check out our battle tested custom builds</h2>
-</div>
-</div>
-
-<div class="rightCheckout">
-<div class="containerCheckOut" onclick="location.href('/documentation')">
-    <i class="far fa-file-alt" id="checkoutIcons"></i>
-    <h2 class="checkoutText">Read our documentation parts</h2>
-</div>
-
-</div>
-
-</div>
-
-
-
+    </section>
 </body>
 </html>
