@@ -1,7 +1,86 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'JetBrains Mono', monospace;
 }
+
+
+
+.topbar{
+    background-color: rgb(0, 0, 0);
+    line-height: 6.7vh;
+    font-size: 15px;
+    font-style: normal;
+    color: white;
+    margin:0px;
+    padding: 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px; 
+           
+}
+.elements a{
+    color: white;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+}
+.elements span:hover{
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgb(60, 62, 143);
+    border-radius: 20px;
+}
+.elements .active{
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgb(60, 62, 143);
+    border-radius: 20px;
+}
+.flex-container-left{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 40px;
+    
+}
+.flex-container-right{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: space-between;
+    padding-right: 5%;    
+    
+}
+header{
+    display: inline;
+    
+}
+.txt-space{
+    padding-left: 25px; 
+    padding-right: 25px;
+}
+.product-name{
+    font-size: 25px;   
+    font-family: 'Jetbrains Mono',monospace;
+    font-weight: bolder;
+    color: rgb(134, 136, 255);
+}
+.centre-txt{
+    display: flex;
+    align-items: center;
+}
+
+.build-sec{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+
+
 
 .container{
     width: 100vw;
@@ -10,13 +89,15 @@
 }
 
 .index{
-    width: 20vw;
+    width: auto;
     height: 92vh;
     margin: 1.1vw;
+    padding: 1.1vw;
     overflow-y: auto;
     border: 2px solid black;
+    border-radius: 15px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     position: sticky;
     left: 1vw;
     top: 2vh;
@@ -40,9 +121,9 @@
 .link-str{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    margin-top: 1vh;
+   /* justify-content: flex-start;*/
+    align-items: left;
+    margin-top: 5vh;
 }
 
 .index .link-str a{
