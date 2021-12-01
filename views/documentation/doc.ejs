@@ -82,6 +82,25 @@
                 <details>
                     <summary><a href="#ram-0">RAM</a></summary>
                     <li><a href="#ram-1">Factors to consider before buying</a></li>
+                    <li><a href="#memo-0">Memory</a></li>
+                    <li><a href="#memo-1">Single Channel vs Dual Channel Memory</a></li>
+                    <li><a href="#memo-2">Dual-Channel Doubles Memory Throughput</a></li>
+                    <li><a href="#memo-3">Single-Channel vs Dual-Channel RAM: Gaming Performance with the AMD Ryzen 7 3700X</a></li>
+                </details>
+
+                <details>
+                    <summary><a href="#storage-0">Storage</a></summary>
+                    <li><a href="#memo-4">HDD</a></li>
+                    <li><a href="#memo-5">SSD</a></li>
+                    <li><a href="#memo-6">SSD vs HDD: Speed</a></li>
+                </details>
+
+                <details>
+                    <summary><a href="#psu-0">Power Supply</a></summary>
+                    <li><a href="#psu-1">Get Connected</a></li>
+                    <li><a href="#psu-2">How many Watts?</a></li>
+                    <li><a href="#psu-3">Protection</a></li>
+                    <li><a href="#psu-4">Considering Efficiency</a></li>
                 </details>
 
             </div>
@@ -712,6 +731,225 @@
             </div>
 
             <p>&nbsp;</p>
+
+            <div class="section" id="memo-0">
+                <h1>Memory</h1>
+            </div>
+
+            <p>&nbsp;</p>
+
+            <div class="section" id="memo-1">
+                <h1>Single Channel vs Dual Channel Memory</h1>
+                <p>&nbsp;</p>
+                <p>RAM communicates with the CPU through the memory controller on the CPU. Most modern motherboards have two 64-bit (total 128-bit) channels between the CPU and memory. In a single-channel configuration, only one of them is functional. This limits memory throughput to the rated speed of the slowest single RAM module installed.</p>
+                <p>&nbsp;</p>
+                <p>In dual-channel memory configurations, the memory controller uses both channels to communicate with the CPU, essentially doubling the bandwidth. But what about multi-channel configurations? Technically, quad-channel systems exist, but they’re mainly found on server-centric and exotic boards. For most people, multi-channel means dual-channel memory.</p>
+            </div>
+
+            <p>&nbsp;</p>
+
+            <div class="section" id="memo-2">
+                <h1>Dual-Channel Doubles Memory Throughput</h1>
+                <p>&nbsp;</p>
+                
+                <p>Single-channel 2133 MHz DDR4 delivers 17 GB/s of memory bandwidth. If you have a pair of 2133 MHz DDR4 modules in dual-channel, your memory bandwidth doubles to 34 GB/s. The only way to hit that level of performance in single-channel mode is to use memory modules running at 4000 MHz or higher.</p>
+                <p>&nbsp;</p>
+                
+                <p>We have to stress an important point here: you need RAM modules in multiples of two in order to utilize dual-channel. Most budget to midrange boards will either have two or four memory slots. I had a Gigabyte B450 DS3H with 4 memory slots and dual-channel support. If you have two slots and your motherboard supports dual-channel, setting it up is often as easy as just inserting a second memory module and booting up.</p>
+                <p>&nbsp;</p>
+
+                <a ><img src="images/cpuz-dualchannel.png"></a>
+
+                <p>If you’re not sure about whether or not dual-channel is enabled, download CPU-Z, then click on the memory tab. It’ll mention whether you’re running your memory in a dual or single-channel configuration.</p>
+            </div>
+            
+            <p>&nbsp;</p>
+
+
+
+            <div class="section" id="memo-3">
+                <h1>Single-Channel vs Dual-Channel RAM: Gaming Performance with the AMD Ryzen 7 3700X</h1>
+                <p>&nbsp;</p>
+                
+                <p>What’s the performance difference between single-channel and dual-channel memory? It varies from game to game, but several titles show a significant increase in your minimum and average frame rates with a dual-channel configuration. The Assassin’s Creed series and Fallout 4 are notable examples. As already mentioned, Assassin’s Creed Origins and Assassin’s Creed Odyssey are nearly unplayable on PC without a dual-channel memory config.</p>
+                <p>&nbsp;</p>
+                <a ><img src="images/acoscperf.png"></a>
+                <p>At first sight, the difference may not look like much. After all, the average frame rates aren’t affected by much, but the lows and frame pacing take a big hit. The CPU latency in single-channel increases by a whopping 50%. This is because there is only one 64-bit channel between the CPU and memory (in dual-channel, there are two)</p>
+                <p>&nbsp;</p>
+                <a ><img src="images/acodcperf.png"></a>
+                <p>Other games like The Division 2 and Shadow of the Tomb Raider have an even lesser impact on average frame rates but the lows and consistency are affected drastically.</p>
+                <p>&nbsp;</p>
+                <a ><img src="images/tcdscperf.png"></a>
+                <p>In single-channel mode, the frame rate drops below 60 quite often in Division 2 but in dual-channel, it stays over 60 throughout the duration of the benchmark. The FPS drops are fewer and the 1% lows are particularly higher. This directly translates into smoother gameplay and fewer bouts of anger.</p>
+                <a ><img src="images/tcddcperf.png"></a>
+            </div>
+
+            <p>&nbsp;</p>
+
+            <div class="section" id="storage-0">
+                <h1>STORAGE</h1>
+
+            <div class="section" id="memo-4">
+                <h1>HDD</h1>
+                <p>&nbsp;</p>
+
+                <p>An HDD is a data storage device that lives inside the computer. It has spinning disks inside where data is stored magnetically. The HDD has an arm with several "heads" (transducers) that read and write data on the disk. It is similar to how a turntable record player works, with an LP record (hard disk) and a needle on an arm (transducers). The arm moves the heads across the surface of the disk to access different data.</p>
+                <p>&nbsp;</p>
+
+                <p>HDDs are considered a legacy technology, meaning they’ve been around longer than SSDs. In general, they are lower in cost and are practical for data that does not need to be accessed frequently, such as backups of photos, videos or business files. They are available in two common form factors: 2.5 inch (commonly used in laptops) and 3.5 inch (desktop computers).</p>
+            </div>
+
+            <p>&nbsp;</p>
+
+            <div class="section" id="memo-5">
+                <h2>SSD</h2>
+                <p>&nbsp;</p>
+
+                <p>SSDs got their name—solid state—because they use solid state devices under the hood. In an SSD, all data is stored in integrated circuits. This difference from HDDs has a lot of implications, especially in size and performance. Without the need for a spinning disk, SSDs can reduce to the shape and size of a stick of gum (what’s known as the M.2 form factor) or even as small as a postage stamp. Their capacity—or how much data they can hold—varies, making them flexible for smaller devices, such as slim laptops, convertibles, or 2 in 1s. And SSDs dramatically reduce access time since users don’t have to wait for platter rotation to start up.</p>
+                <p>&nbsp;</p>
+
+                <p>SSDs are more expensive than HDDs per amount of storage (in gigabytes (GB) and terabytes (TB)), but the gap is closing as SSD prices decline at a faster pace that HDD prices year over year.</p>
+            </div>
+
+            <p>&nbsp;</p>
+
+            <div class="section" id="memo-6">
+                <h1>SSD vs. HDD: Speed</h1>
+                <p>&nbsp;</p>
+
+                <p>What makes SSDs an increasingly popular choice is their speed. Across the board, SSDs outpace HDDs because they use electrical circuitry and have no physical moving parts. This leads to shorter wait times when you’re starting up and fewer delays when opening apps or doing heavy computing tasks. For example, the Intel SSD D5-P5316 is a 15.36TB enterprise-grade SSD that offers over 7000 MB/s in bandwidth. The 14TB Seagate Exos 2x14, a compatible HDD, offers only up to 500 MB/s in bandwidth. That’s a difference of 14 times.</p>
+                <p>&nbsp;</p>
+
+                <p>These faster speeds lead to performance benefits in several areas, such as when logging in and waiting for apps and services to start up, or when performing storage-intensive tasks such as copying a large file. With an HDD, performance slows significantly, while an SSD can continue to work on other tasks.</p>
+                <p>&nbsp;</p>
+
+                <p>Speed is also influenced by the interface used in an SSD vs. HDD that connects to the rest of the computer system when transferring data back and forth. You might have heard of these interfaces—SATA and PCI Express (PCIe). SATA is an older, slower, legacy technology, while PCIe is newer and faster. SSDs with PCIe interfaces will typically be much faster than HDDs with SATA because PCIe contains more channels to transfer data. Think of it like the number of cars that can go down a one-lane country road compared to a four lane highway.</p>
+                <p>&nbsp;</p>
+
+                <p>Although no one ever complains that their computer is too fast, there are times when an HDD can make sense. If you have terabytes of files that you want to store, HDDs are still a less expensive option, although that’s changing with increasingly lower SSD prices and newer NAND technologies driving bit densities higher per NAND die. Computer storage decisions can be simplified by thinking of data as either cold or hot. “Cold” data might include the years of photos you want to keep on your laptop but don’t look at every day and don’t need quick access to. HDDs can be an excellent, cost-effective choice for cold data. At the other end of the spectrum, if you’re a business running real-time transactions, editing videos and photos and need fast access to a database of files, video clips, or models, or even just running the operating system, that’s referred to as “hot” data. The fast performance of SSDs makes them an ideal choice for when speedy access to your data is what matters most.</p>
+            </div>
+
+            <p>&nbsp;</p>
+
+            <div class="section" id="psu-0">
+                <h1>PSU</h1>
+                <p>&nbsp;</p>
+
+                <p>A power supply unit (PSU) converts mains AC to low-voltage regulated DC power for the internal components of a computer. Modern personal computers universally use switched-mode power supplies. Some power supplies have a manual switch for selecting input voltage, while others automatically adapt to the mains voltage.</p>
+                <p>&nbsp;</p>
+
+                <p>Power supplies are often overlooked, but they are a vital component in any desktop PC. We’re going to cover the basics, so you know what to look for when selecting a new PSU.</p>
+                <p>&nbsp;</p>
+                
+                <p>The Power Supply Unit (PSU) might not be the most frequently discussed PC component, but it’s a critical piece of any desktop. Supplying power to your entire system is an extremely important role, and using the wrong one could be costly.</p>
+                <p>&nbsp;</p>
+
+                <p>That’s why we’re going to cover the basics of power supplies, and provide you with the information you need to understand why having the right PSU is important, and why simply settling for the cheapest option is not the best solution.</p>
+            </div>
+
+            <p>&nbsp;</p>
+
+            <div class="section" id="psu-1">
+                <h1>Get Connected</h1>
+                <p>&nbsp;</p>
+
+                <p>Let’s kick things off by going over the different cables power supplies use to provide power to your system.</p>
+                <p>&nbsp;</p>
+
+                <p>Though the PSU you purchase should come with all of the cables you need, it’s worth knowing what the individual connections look like. The exact cables you’ll use will vary depending on the specifics of your build, but you’ll most likely be dealing with the following:</p>
+                <p>&nbsp;</p>
+
+                <ul>
+                    <li><strong>24-pin Motherboard:</strong> The way power is allocated varies from motherboard to motherboard, but the 24-pin connector/cable is frequently used to power important features such as the chipset and PCIe*.</li>
+                    <li><strong>4/8-pin CPU:</strong> This connector provides power to your CPU. Modern CPUs draw more power than the 24-pin motherboard configuration can provide, which is why the additional 4/8 pin cable came into use. Though it can vary depending on the manufacturer, the CPU cable usually plugs into the top left side of the motherboard, near the I/O on a standard layout.</li>
+                    <li><strong>6/8 pin (PCIe*/GPU):</strong> Some GPUs draw enough power from the PCIe* slot, while others require a specific power cable configuration to operate properly. Most PSUs address this required flexibility by providing cables that can be used in a variety of combinations, some of which include 6, 8, 6+6, 8+6, and 8+8, and even 8+8+8 pin connectors. PSUs will often provide multiple connections on a single cable to avoid having to run additional wires, and for the vast majority of users, this will function the same as running multiple cables. Be sure to double-check that your power supply has the connections you need for your GPU before purchasing.</li>
+                    <li><strong>SATA Power:</strong> This connector is used to provide power to SATA storage devices. Other devices have since adopted the standard as well, such as RGB hubs and fan controllers. Many PSUs have multiple SATA connections on one cable to reduce the amount of cables required.</li>
+                    <li><strong>4-pin Molex:</strong> This is an increasingly rare legacy connector that has mostly been replaced by SATA. Molex connectors are usually found on less common accessories, such as water cooling pumps.</li>
+                    <a ><img src="images/8pingpu.png"></a>
+                </ul>
+            </div>
+
+            <p>&nbsp;</p>
+
+            
+            <div class="section" id="psu-2">
+                <h1>How Many Watts?</h1>
+                <p>&nbsp;</p>
+
+                <p>When selecting a new PSU, one of the most common questions asked is, “How many watts is enough?” As is often the case in the world of PC hardware, the answer varies widely depending on the unique needs of your system.</p>
+                <p>&nbsp;</p>
+
+                <p>Generally, more complex systems require more power to run. A desktop with a custom liquid cooling loop, a high-end motherboard, and dual GPUs is going to need a higher wattage computer power supply than a simpler system.</p>
+                <p>&nbsp;</p>
+
+                <p>It’s impossible to give an exact recommendation without knowing specifically what hardware you’re working with, but using a PSU Wattage Calculator, or determining the power draw of your different internal components and adding that together, can give insight into how many watts you need.</p>
+                <p>&nbsp;</p>
+
+                <p>As a general rule, it’s better to err on the side of higher wattage rather than trying to match your needs exactly. If you’ve calculated that your system is going to use 500 watts (a common number for a straightforward gaming build), choosing a PSU with 600 or 650-watt output could be a good option, as it will give you some overhead to work with, and also allow for potential future upgrades.</p>
+                <p>&nbsp;</p>
+
+                <p>Keep this in mind when considering higher wattage PSUs: a 750-watt power supply does not consume 750 watts by default. If your system is drawing 500 watts, your power supply will supply 500 watts, regardless of maximum capable output. Higher wattage output doesn’t necessarily mean more energy consumed; it means it has the ability to provide more power if your system demands it. That said, there’s no real advantage to having a vastly overpowered PSU if your system doesn’t need it, so you might be better served selecting a feature-rich, high-efficiency PSU that is closer to the wattage you require.</p>
+                <p>&nbsp;</p>
+
+                <p>You’ll also want to consider the continuous power versus the peak power capabilities of your new PSU. Peak power is the maximum amount of power the PSU can output for short periods of time, whereas continuous power refers to the amount of power the PSU is designed to output on a regular basis. Peak power is usually reached when pushing your system to its limits, like when you’re running demanding games or performing hardware benchmarks.</p>
+                <p>&nbsp;</p>
+
+                <p>If there is a sudden demand for more power, your PSU should be able to handle the higher output briefly, but should not be expected to run at those higher wattages continuously. Always make sure the PSU you purchase has sufficiently high continuous power output, and don’t choose solely by peak power capabilities.</p>            </div>
+            </div>
+
+            <p>&nbsp;</p>
+
+            <div class="section" id="psu-3">
+                <h1>Protection</h1>
+                <p>&nbsp;</p>
+
+                <p>As you'd expect from anything that deals with large amounts of power, system safety is a concern. A good power supply should have fail-safes built in — not just to protect the PSU itself, but also to keep your system safe in case of something unexpected, like a power surge. The power supply and the motherboard are the only PC components that directly connect to almost every other piece of hardware in your system. Because of the unique position of the PSU in the PC’s layout, making sure it has built-in protection can help keep the rest of your hardware safe as well.</p>
+                <p>&nbsp;</p>
+
+                <p>It’s worth noting whether the power supply you’re looking at has built-in protection, like OVP (Over Voltage Protection), which shuts down the PSU if excessive voltage is detected. Other safety features include functions like short circuit protection, which can be hugely beneficial if you encounter power fluctuations.</p>
+                <p>&nbsp;</p>
+
+                <p>You’ll also want to plug in your PC to a surge protector. These hardware-saving devices are designed to add another layer of protection to your system by diverting potentially damaging power surges away from your valuable components.</p>
+            </div>
+
+            <p>&nbsp;</p>
+
+
+            <div class="section" id="psu-4">
+                <h1>Consider Efficiency</h1>
+                <p>&nbsp;</p>
+
+                <p>Wattage is certainly an important consideration when choosing a desktop power supply, but so is PSU efficiency. Inefficient delivery leads to wasted power and more heat, which can potentially decrease the lifespan of your components.</p>
+                <p>&nbsp;</p>
+
+                <p>Because this is such an important consideration, there’s a relatively straightforward independent rating system in place. You might have noticed the “80 Plus” rating on many power supplies, often listed alongside a precious metal. To receive this rating, a power supply must be at least 80 percent efficient, meaning that a maximum of 20 percent of power is lost as heat.</p>
+                <p>&nbsp;</p>
+
+                <p>This efficiency rating is determined by performance in a 115-volt system, and the ratings are further increased as you go up the ladder of precious metals.</p>
+                <p>&nbsp;</p>
+
+                <p>These include:</p>
+
+                <ul>
+                    <li>80 Plus</li>
+                    <li>80 PLUS Bronze</li>
+                    <li>80 PLUS Silver</li>
+                    <li>80 PLUS Gold</li>
+                    <li>80 PLUS Platinum</li>
+                    <li>80 PLUS Titanium</li>
+                </ul>
+                <p>&nbsp;</p>
+
+                <p>The more efficient your PSU, the less power it uses, and the less heat it generates. That said, higher efficiency usually means a higher price, so you’ll want to find the balance that works for you.</p>
+                <p>&nbsp;</p>
+
+                <p>Even the most efficient PSU will still generate heat, however, and most use fans to disperse that heat. Many power supplies are designed so that the fan will only turn on when it needs to — that is, when the PSU hits a certain threshold. Features like these help to reduce noise.</p>
+                <p>&nbsp;</p>
+
+                <p>For those who are interested in taking things to the very edge of practicality, there are even liquid-cooled power supplies for a truly silent experience.</p>
+                <a ><img src="images/PSUe.png"></a>
+            </div>
+
 
             <div>
                 
