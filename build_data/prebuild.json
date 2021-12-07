@@ -1,8 +1,8 @@
 {
 
-     "High End PC": [
+     "high_end PC": [
           {
-             "Editor_Pc": [
+             "editor_pc": [
                  {
                      "CPU" : "AMD Ryzen 9 5950X 3.4 GHz 16-Core Processor",
                      "Motherboard": "Gigabyte X570 AORUS PRO WIFI",
@@ -17,9 +17,9 @@
      
                   }
                ],
-             "High_End_Gaming" :[
+             "high_end_gaming" :[
                     {
-                 "CPU" : "AMD Ryzen 7 5800X 3.8 GHz 8-Core Processor",
+                    "CPU" : "AMD Ryzen 7 5800X 3.8 GHz 8-Core Processor",
                     "Motherboard": "Asus TUF GAMING B550-PLUS (WI-FI) ATX AM4 Motherboard",
                     "GPU" : "NVIDIA GeForce RTX 3080 10 GB Founders Edition Video Card",
                     "CPU Cooler": "Noctua NH-D15 82.5 CFM CPU Cooler",
@@ -34,11 +34,11 @@
              
                }
                ],
-     "Hobbyist PC": [
+     "hobbyist_pc": [
           {
-               "Mid_Range_Intel": [
+               "mid_range_intel": [
                     {
-                 "CPU" : "Intel Core i5-11600K 3.9 GHz 6-Core Processor",
+                    "CPU" : "Intel Core i5-11600K 3.9 GHz 6-Core Processor",
                     "Motherboard": "Asus TUF GAMING B560M-PLUS WIFI Micro ATX LGA1200 Motherboard",
                     "GPU" : "Asus GeForce RTX 3060 12 GB ROG STRIX GAMING OC Video Card",
                     "CPU Cooler": "Noctua NH-D15 82.5 CFM CPU Cooler",
@@ -49,9 +49,9 @@
                     "Price" : "1,065$"
                     }
                ],
-               "Mid_Range_Amd": [
+               "mid_range_amd": [
                     {
-                 "CPU" : "AMD Ryzen 5 5600X 3.7 GHz 6-Core Processor",
+                    "CPU" : "AMD Ryzen 5 5600X 3.7 GHz 6-Core Processor",
                     "Motherboard": "ASRock B550 Phantom Gaming 4 ATX AM4 Motherboard",
                     "GPU" : "",
                     "CPU Cooler": "Noctua NH-D15 82.5 CFM CPU Cooler",
@@ -64,11 +64,11 @@
                ]
           }
           ],
-     "Home_Office_Pc": [
+     "home_office_pc": [
                {
-                "Low_End_Intel": [
+                "low_end_intel": [
                     {
-                 "CPU" : "Intel Core i5-11600K 3.9 GHz 6-Core Processor",
+                    "CPU" : "Intel Core i5-11600K 3.9 GHz 6-Core Processor",
                     "Motherboard": "Asus PRIME B560-PLUS ATX LGA1200 Motherboard",
                     "GPU" : "Integrated Graphics: Intel UHD Graphics 750",
                     "CPU Cooler": "Cooler Master Hyper 212 EVO 82.9 CFM Sleeve Bearing CPU Cooler",
@@ -79,9 +79,9 @@
                     "Price" : "580$"
                     }
                ],
-               "Low_End_Gaming": [
+               "low_end_gaming": [
                     {
-                 "CPU" : "AMD Ryzen 5 3600 3.6 GHz 6-Core Processor",
+                    "CPU" : "AMD Ryzen 5 3600 3.6 GHz 6-Core Processor",
                     "Motherboard": "MSI X470 GAMING PLUS MAX ATX AM4 Motherboard",
                     "GPU" : "Asus GeForce GTX 1650 SUPER 4 GB TUF GAMING OC Video Card",
                     "CPU Cooler": "Stock",
@@ -91,7 +91,7 @@
                     "PSU" : "EVGA BR 500 W 80+ Bronze Certified ATX Power Supply",
                     "Price" : "660$"
                     }
-               ]
-               }
+                ]
+                }
           ]
      }
