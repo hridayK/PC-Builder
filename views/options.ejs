@@ -4,12 +4,173 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/prebuild.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Source+Sans+Pro:wght@400;600&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;600&display=swap" rel="stylesheet">
     <title>Prebuilt PCs</title>
 </head>
 <body>
-    <% pb.pcs.forEach(element => { %>
-        <h1><%= element.name %> </h1>
-        <!-- Baaki details etc kaise kya UI karna hai dekh le pls -->
-    <% }); %>
+  
+    <header>
+        <nav class="topbar">
+            <div class="flex-container-left">
+            <span class="product-name centre-txt">
+                      <h3>PC<span style="color: white;">Builder</span></h3>       
+            </span>
+    
+            <div class="elements flex-container-right">
+                <span class="txt-space centre-txt ">
+                    <a  href="..">
+                        <h3>Build your own PC</h3>
+                    </a>
+                </span>
+                <span class="txt-space centre-txt ">
+                    <a  href="/doc">
+                        <h3>Documentation</h3>
+                    </a>
+                </span>
+                
+                <span class="txt-space centre-txt active">
+                    <a  href="/prebuild">
+                        <h3>Custom</h3>
+                    </a>
+                </span>
+            </div>
+        </div>
+        </nav>
+    </header>
+
+    
+    <div class="background">
+        
+        <div class="btalign">
+            <button type="button btalign" class="Button">High End</button>
+            <button type="button btalign" class="Button">Mid Tier</button>
+            <button type="button btalign" class="Button">Low End</button>
+            </div>
+            
+    </section>
+    <section class="divline">
+    </div>
+
+    <section>
+        <div>
+            <h1>High end pc</h1>
+            <div>1
+                <image src="/images/ehigh_end.png" alt="take tha mobile gamers" style="height: 300px;"></image>
+                
+                <% pb.pcs.forEach(element => { %>
+                    <% if(element.name=="he_editor_pc") {%>
+                    <h3><%= element.CPU %> </h3>
+                    <h3><%= element.Motherboard %> </h3>
+                    <h3><%= element.GPU %> </h3>
+                    <h3><%= element.CPU_Cooler %> </h3>
+                    <h3><%= element.RAM %> </h3>
+                    <h3><%= element.HDD %> </h3>
+                    <h3><%= element.SSD %> </h3>
+                    <h3><%= element.PSU %> </h3>
+                    <h3><%= element.Price %> </h3>
+                    <h3><%= %></h3>
+                    <!-- Baaki details etc kaise kya UI karna hai dekh le pls -->
+                <% }}); %>
+            </div>
+            <div>2
+                <image src="/images/ehigh_end.png" alt="take tha mobile gamers" style="height: 300px;"></image>
+                
+                <% pb.pcs.forEach(element => { %>
+                    <% if(element.name=="he_gaming_pc") {%>
+                    <h3><%= element.CPU %> </h3>
+                    <h3><%= element.Motherboard %> </h3>
+                    <h3><%= element.GPU %> </h3>
+                    <h3><%= element.CPU_Cooler %> </h3>
+                    <h3><%= element.RAM %> </h3>
+                    <h3><%= element.HDD %> </h3>
+                    <h3><%= element.SSD %> </h3>
+                    <h3><%= element.PSU %> </h3>
+                    <h3><%= element.Price %> </h3>
+                    <h3><%= %></h3>
+                    <!-- Baaki details etc kaise kya UI karna hai dekh le pls -->
+                <% }}); %>
+            </div>
+        </div>
+        <br>
+        <h1>Mid end pc</h1>
+            <div>1
+                <image src="/images/ehigh_end.png" alt="take tha mobile gamers" style="height: 300px;"></image>
+                
+                <% pb.pcs.forEach(element => { %>
+                    <% if(element.name=="mid_intel_pc") {%>
+                    <h3><%= element.CPU %> </h3>
+                    <h3><%= element.Motherboard %> </h3>
+                    <h3><%= element.GPU %> </h3>
+                    <h3><%= element.CPU_Cooler %> </h3>
+                    <h3><%= element.RAM %> </h3>
+                    <h3><%= element.HDD %> </h3>
+                    <h3><%= element.SSD %> </h3>
+                    <h3><%= element.PSU %> </h3>
+                    <h3><%= element.Price %> </h3>
+                    <h3><%= %></h3>
+                    <!-- Baaki details etc kaise kya UI karna hai dekh le pls -->
+                <% }}); %>
+            </div>
+            <div>2
+                <image src="/images/ehigh_end.png" alt="take tha mobile gamers" style="height: 300px;"></image>
+                
+                <% pb.pcs.forEach(element => { %>
+                    <% if(element.name=="mid_amd_pc") {%>
+                    <h3><%= element.CPU %> </h3>
+                    <h3><%= element.Motherboard %> </h3>
+                    <h3><%= element.GPU %> </h3>
+                    <h3><%= element.CPU_Cooler %> </h3>
+                    <h3><%= element.RAM %> </h3>
+                    <h3><%= element.HDD %> </h3>
+                    <h3><%= element.SSD %> </h3>
+                    <h3><%= element.PSU %> </h3>
+                    <h3><%= element.Price %> </h3>
+                    <h3><%= %></h3>
+                    <!-- Baaki details etc kaise kya UI karna hai dekh le pls -->
+                <% }}); %>
+            </div>
+        </div>
+        <br>
+        <h1>Low end pc</h1>
+            <div>1
+                <image src="/images/ehigh_end.png" alt="take tha mobile gamers" style="height: 300px;"></image>
+                
+                <% pb.pcs.forEach(element => { %>
+                    <% if(element.name=="low_intel_pc") {%>
+                    <h3><%= element.CPU %> </h3>
+                    <h3><%= element.Motherboard %> </h3>
+                    <h3><%= element.GPU %> </h3>
+                    <h3><%= element.CPU_Cooler %> </h3>
+                    <h3><%= element.RAM %> </h3>
+                    <h3><%= element.HDD %> </h3>
+                    <h3><%= element.SSD %> </h3>
+                    <h3><%= element.PSU %> </h3>
+                    <h3><%= element.Price %> </h3>
+                    <h3><%= %></h3>
+                    <!-- Baaki details etc kaise kya UI karna hai dekh le pls -->
+                <% }}); %>
+            </div>
+            <div>2
+                <image src="/images/ehigh_end.png" alt="take tha mobile gamers" style="height: 300px;"></image>
+                
+                <% pb.pcs.forEach(element => { %>
+                    <% if(element.name=="low_amd_pc") {%>
+                    <h3><%= element.CPU %> </h3>
+                    <h3><%= element.Motherboard %> </h3>
+                    <h3><%= element.GPU %> </h3>
+                    <h3><%= element.CPU_Cooler %> </h3>
+                    <h3><%= element.RAM %> </h3>
+                    <h3><%= element.HDD %> </h3>
+                    <h3><%= element.SSD %> </h3>
+                    <h3><%= element.PSU %> </h3>
+                    <h3><%= element.Price %> </h3>
+                    <h3><%= %></h3>
+                    <!-- Baaki details etc kaise kya UI karna hai dekh le pls -->
+                <% }}); %>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

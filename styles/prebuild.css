@@ -1,0 +1,167 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.topbar{
+    background-color: rgb(0, 0, 0);
+    line-height: 6.7vh;
+    font-size: 15px;
+    font-style: normal;
+    color: white;
+    margin:0px;
+    padding: 0px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;       
+}
+.elements a{
+    color: white;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+}
+.elements span:hover{
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgb(60, 62, 143);
+    border-radius: 20px;
+}
+.elements .active{
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgb(60, 62, 143);
+    border-radius: 20px;
+}
+.flex-container-left{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 40px;
+    
+}
+.flex-container-right{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: space-between;
+    padding-right: 5%;    
+    
+}
+header{
+    display: inline;
+}
+.txt-space{
+    padding-left: 25px; 
+    padding-right: 25px;
+}
+.product-name{
+    font-size: 25px;   
+    font-family: 'Jetbrains Mono',monospace;
+    font-weight: bolder;
+    color: rgb(134, 136, 255);
+}
+.centre-txt{
+    display: flex;
+    align-items: center;
+}
+
+.build-sec{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+
+
+
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.index{
+    width: auto;
+    height: 92vh;
+    margin: 1.1vw;
+    padding: 1.1vw;
+    overflow-y: auto;
+    border: 2px solid black;
+    
+    border-radius: 15px;
+    display: flex;
+    justify-content: left;
+    position: sticky;
+    left: 1vw;
+    top: 2vh;
+}
+
+
+
+
+
+.background{
+    margin-top: 0;
+    padding: 0;
+    background-image: url('/images/nzxt-pc-build-sale.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #22054941;
+    background-blend-mode: multiply;
+}
+
+.Button{
+    padding: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 50vh;
+    font-size: 35px;
+    border-radius: 20px;
+    border: 2px;
+    font-weight: 800;
+    border-color: rgba(255, 255, 255, 0.322);
+    border-style: solid;
+    color: rgb(241, 236, 255);
+    background-color: rgba(35, 8, 83, 0.9);
+    font-family: 'JetBrains Mono', monospace;
+}
+.Button:hover{
+    background-image: url('https://c.tenor.com/lnHy5A_HnVMAAAAM/pc-master-race-gaming.gif');
+    height: 100%;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.863);
+    background-blend-mode: multiply;
+
+}
+.btalign{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 20vh;
+    padding-right: 20vh;
+    
+}
+.divline{
+    
+    border-color: blue;
+    border-style: solid;
+    padding-top: 20vh;
+    border-top: 1px;
+    border-left: 0px;
+    border-right: 0px;
+    
+}
