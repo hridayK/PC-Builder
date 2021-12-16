@@ -44,9 +44,9 @@
     <div class="background">
         
         <div class="btalign">
-            <button type="button btalign" class="Button">High End</button>
-            <button type="button btalign" class="Button">Mid Tier</button>
-            <button type="button btalign" class="Button">Low End</button>
+            <button type="button" class="Button" ><a href="#highend">High End</a></button>
+            <button type="button" class="Button" ><a href="#midend">Mid Tier</a></button>
+            <button type="button" class="Button" ><a href="#lowend">Low End</a></button>
             </div>
             
     </section>
@@ -54,123 +54,173 @@
     </div>
 
     <section>
-        <div>
+        <div id="highend" class="centre">
             <h1>High end pc</h1>
-            <div>1
-                <image src="/images/ehigh_end.png" alt="take tha mobile gamers" style="height: 300px;"></image>
-                
-                <% pb.pcs.forEach(element => { %>
-                    <% if(element.name=="he_editor_pc") {%>
-                    <h3><%= element.CPU %> </h3>
-                    <h3><%= element.Motherboard %> </h3>
-                    <h3><%= element.GPU %> </h3>
-                    <h3><%= element.CPU_Cooler %> </h3>
-                    <h3><%= element.RAM %> </h3>
-                    <h3><%= element.HDD %> </h3>
-                    <h3><%= element.SSD %> </h3>
-                    <h3><%= element.PSU %> </h3>
-                    <h3><%= element.Price %> </h3>
-                    <h3><%= %></h3>
-                    <!-- Baaki details etc kaise kya UI karna hai dekh le pls -->
-                <% }}); %>
             </div>
-            <div>2
-                <image src="/images/ehigh_end.png" alt="take tha mobile gamers" style="height: 300px;"></image>
-                
-                <% pb.pcs.forEach(element => { %>
-                    <% if(element.name=="he_gaming_pc") {%>
-                    <h3><%= element.CPU %> </h3>
-                    <h3><%= element.Motherboard %> </h3>
-                    <h3><%= element.GPU %> </h3>
-                    <h3><%= element.CPU_Cooler %> </h3>
-                    <h3><%= element.RAM %> </h3>
-                    <h3><%= element.HDD %> </h3>
-                    <h3><%= element.SSD %> </h3>
-                    <h3><%= element.PSU %> </h3>
-                    <h3><%= element.Price %> </h3>
-                    <h3><%= %></h3>
-                    <!-- Baaki details etc kaise kya UI karna hai dekh le pls -->
-                <% }}); %>
-            </div>
-        </div>
+            <span class="sortrow">
+                <div class="imgtxtc">
+                    <span class="pcname">
+                        Creators Pc
+                    </span> 
+                    <span>
+                        <image src="/images/ehigh_end.png" alt="take that mobile gamers" style="height: 300px;"></image>
+                    </span>
+                </div>
+                <div style="padding-top: 5vh;">
+                    <% pb.pcs.forEach(element => { %>
+                        <% if(element.name=="he_editor_pc") {%>
+                        <h3><%= element.CPU %> </h3>
+                        <h3><%= element.Motherboard %> </h3>
+                        <h3><%= element.GPU %> </h3>
+                        <h3><%= element.CPU_Cooler %> </h3>
+                        <h3><%= element.RAM %> </h3>
+                        <h3><%= element.HDD %> </h3>
+                        <h3><%= element.SSD %> </h3>
+                        <h3><%= element.PSU %> </h3>
+                        <h3><%= element.Price %> </h3>
+                        <h3><%= %></h3>
+                        <!-- Baaki details etc kaise kya UI karna hai dekh le pls -->
+                    <% }}); %>
+                </div>
+            </span>
+            <span class="sortrow">
+                <div class="imgtxtc">
+                    <span class="pcname">
+                        High End Pc
+                    </span> 
+                    <span>
+                        <image src="/images/high-end-gaming-pc.png" alt="take that mobile gamers" style="height: 300px;"></image>
+                    </span>
+                </div>
+                <div style="padding-top: 5vh;">
+                    <% pb.pcs.forEach(element => { %>
+                        <% if(element.name=="he_gaming_pc") {%>
+                        <h3><%= element.CPU %> </h3>
+                        <h3><%= element.Motherboard %> </h3>
+                        <h3><%= element.GPU %> </h3>
+                        <h3><%= element.CPU_Cooler %> </h3>
+                        <h3><%= element.RAM %> </h3>
+                        <h3><%= element.HDD %> </h3>
+                        <h3><%= element.SSD %> </h3>
+                        <h3><%= element.PSU %> </h3>
+                        <h3><%= element.Price %> </h3>
+                        <h3><%= %></h3>
+                        <!-- Baaki details etc kaise kya UI karna hai dekh le pls -->
+                    <% }}); %>
+                </div>
+            </span>
         <br>
-        <h1>Mid end pc</h1>
-            <div>1
-                <image src="/images/ehigh_end.png" alt="take tha mobile gamers" style="height: 300px;"></image>
-                
-                <% pb.pcs.forEach(element => { %>
-                    <% if(element.name=="mid_intel_pc") {%>
-                    <h3><%= element.CPU %> </h3>
-                    <h3><%= element.Motherboard %> </h3>
-                    <h3><%= element.GPU %> </h3>
-                    <h3><%= element.CPU_Cooler %> </h3>
-                    <h3><%= element.RAM %> </h3>
-                    <h3><%= element.HDD %> </h3>
-                    <h3><%= element.SSD %> </h3>
-                    <h3><%= element.PSU %> </h3>
-                    <h3><%= element.Price %> </h3>
-                    <h3><%= %></h3>
-                    <!-- Baaki details etc kaise kya UI karna hai dekh le pls -->
-                <% }}); %>
+        <div class="centre" id="midend">
+            <h1>Mid Tier pc</h1>
             </div>
-            <div>2
-                <image src="/images/ehigh_end.png" alt="take tha mobile gamers" style="height: 300px;"></image>
-                
-                <% pb.pcs.forEach(element => { %>
-                    <% if(element.name=="mid_amd_pc") {%>
-                    <h3><%= element.CPU %> </h3>
-                    <h3><%= element.Motherboard %> </h3>
-                    <h3><%= element.GPU %> </h3>
-                    <h3><%= element.CPU_Cooler %> </h3>
-                    <h3><%= element.RAM %> </h3>
-                    <h3><%= element.HDD %> </h3>
-                    <h3><%= element.SSD %> </h3>
-                    <h3><%= element.PSU %> </h3>
-                    <h3><%= element.Price %> </h3>
-                    <h3><%= %></h3>
-                    <!-- Baaki details etc kaise kya UI karna hai dekh le pls -->
-                <% }}); %>
-            </div>
-        </div>
+            <span class="sortrow">
+                <div class="imgtxtc">
+                    <span class="pcname">
+                        Mid Tier Intel Pc
+                    </span> 
+                    <span>
+                        <image src="/images/mid-end1.jpg" alt="take that mobile gamers" style="height: 300px;"></image>
+                    </span>
+                </div>
+                <div style="padding-top: 5vh;">
+                    <% pb.pcs.forEach(element => { %>
+                        <% if(element.name=="mid_intel_pc") {%>
+                        <h3><%= element.CPU %> </h3>
+                        <h3><%= element.Motherboard %> </h3>
+                        <h3><%= element.GPU %> </h3>
+                        <h3><%= element.CPU_Cooler %> </h3>
+                        <h3><%= element.RAM %> </h3>
+                        <h3><%= element.HDD %> </h3>
+                        <h3><%= element.SSD %> </h3>
+                        <h3><%= element.PSU %> </h3>
+                        <h3><%= element.Price %> </h3>
+                        <h3><%= %></h3>
+                        <!-- Baaki details etc kaise kya UI karna hai dekh le pls -->
+                    <% }}); %>
+                </div>
+            </span>
+            <span class="sortrow">
+                <div class="imgtxtc">
+                    <span class="pcname">
+                        Mid Tier AMD Pc
+                    </span> 
+                    <span>
+                        <image src="/images/mid-end2.jpg" alt="take that mobile gamers" style="height: 300px;"></image>
+                    </span>
+                </div>
+                <div style="padding-top: 5vh;">
+                    <% pb.pcs.forEach(element => { %>
+                        <% if(element.name=="mid_amd_pc") {%>
+                        <h3><%= element.CPU %> </h3>
+                        <h3><%= element.Motherboard %> </h3>
+                        <h3><%= element.GPU %> </h3>
+                        <h3><%= element.CPU_Cooler %> </h3>
+                        <h3><%= element.RAM %> </h3>
+                        <h3><%= element.HDD %> </h3>
+                        <h3><%= element.SSD %> </h3>
+                        <h3><%= element.PSU %> </h3>
+                        <h3><%= element.Price %> </h3>
+                        <h3><%= %></h3>
+                        <!-- Baaki details etc kaise kya UI karna hai dekh le pls -->
+                    <% }}); %>
+                </div>
+            </span>
         <br>
-        <h1>Low end pc</h1>
-            <div>1
-                <image src="/images/ehigh_end.png" alt="take tha mobile gamers" style="height: 300px;"></image>
-                
-                <% pb.pcs.forEach(element => { %>
-                    <% if(element.name=="low_intel_pc") {%>
-                    <h3><%= element.CPU %> </h3>
-                    <h3><%= element.Motherboard %> </h3>
-                    <h3><%= element.GPU %> </h3>
-                    <h3><%= element.CPU_Cooler %> </h3>
-                    <h3><%= element.RAM %> </h3>
-                    <h3><%= element.HDD %> </h3>
-                    <h3><%= element.SSD %> </h3>
-                    <h3><%= element.PSU %> </h3>
-                    <h3><%= element.Price %> </h3>
-                    <h3><%= %></h3>
-                    <!-- Baaki details etc kaise kya UI karna hai dekh le pls -->
-                <% }}); %>
+        <div class="centre" id="lowend">
+            <h1>Low end pc</h1>
             </div>
-            <div>2
-                <image src="/images/ehigh_end.png" alt="take tha mobile gamers" style="height: 300px;"></image>
-                
-                <% pb.pcs.forEach(element => { %>
-                    <% if(element.name=="low_amd_pc") {%>
-                    <h3><%= element.CPU %> </h3>
-                    <h3><%= element.Motherboard %> </h3>
-                    <h3><%= element.GPU %> </h3>
-                    <h3><%= element.CPU_Cooler %> </h3>
-                    <h3><%= element.RAM %> </h3>
-                    <h3><%= element.HDD %> </h3>
-                    <h3><%= element.SSD %> </h3>
-                    <h3><%= element.PSU %> </h3>
-                    <h3><%= element.Price %> </h3>
-                    <h3><%= %></h3>
-                    <!-- Baaki details etc kaise kya UI karna hai dekh le pls -->
-                <% }}); %>
-            </div>
-        </div>
+            <span class="sortrow">
+                <div class="imgtxtc">
+                    <span class="pcname">
+                        Low End Intel Pc
+                    </span> 
+                    <span>
+                        <image src="/images/low-end1.jpg" alt="take that mobile gamers" style="height: 300px;"></image>
+                    </span>
+                </div>
+                <div style="padding-top: 5vh;">
+                    <% pb.pcs.forEach(element => { %>
+                        <% if(element.name=="low_intel_pc") {%>
+                        <h3><%= element.CPU %> </h3>
+                        <h3><%= element.Motherboard %> </h3>
+                        <h3><%= element.GPU %> </h3>
+                        <h3><%= element.CPU_Cooler %> </h3>
+                        <h3><%= element.RAM %> </h3>
+                        <h3><%= element.HDD %> </h3>
+                        <h3><%= element.SSD %> </h3>
+                        <h3><%= element.PSU %> </h3>
+                        <h3><%= element.Price %> </h3>
+                        <h3><%= %></h3>
+                        <!-- Baaki details etc kaise kya UI karna hai dekh le pls -->
+                    <% }}); %>
+                </div>
+            </span>
+            <span class="sortrow">
+                <div class="imgtxtc">
+                    <span class="pcname">
+                        Low End AMD Pc
+                    </span> 
+                    <span>
+                        <image src="/images/low-end2.jpg" alt="take that mobile gamers" style="height: 300px;"></image>
+                    </span>
+                </div>
+                <div style="padding-top: 5vh;">
+                    <% pb.pcs.forEach(element => { %>
+                        <% if(element.name=="low_amd_pc") {%>
+                        <h3><%= element.CPU %> </h3>
+                        <h3><%= element.Motherboard %> </h3>
+                        <h3><%= element.GPU %> </h3>
+                        <h3><%= element.CPU_Cooler %> </h3>
+                        <h3><%= element.RAM %> </h3>
+                        <h3><%= element.HDD %> </h3>
+                        <h3><%= element.SSD %> </h3>
+                        <h3><%= element.PSU %> </h3>
+                        <h3><%= element.Price %> </h3>
+                        <h3><%= %></h3>
+                        <!-- Baaki details etc kaise kya UI karna hai dekh le pls -->
+                    <% }}); %>
+                </div>
+            </span>
     </section>
 </body>
 </html>

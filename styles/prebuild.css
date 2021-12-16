@@ -132,7 +132,7 @@ header{
     font-weight: 800;
     border-color: rgba(255, 255, 255, 0.322);
     border-style: solid;
-    color: rgb(241, 236, 255);
+    color: rgb(255, 0, 21);
     background-color: rgba(35, 8, 83, 0.9);
     font-family: 'JetBrains Mono', monospace;
 }
@@ -163,5 +163,38 @@ header{
     border-top: 1px;
     border-left: 0px;
     border-right: 0px;
+    
+}
+.sortrow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 5vh;  
+    margin: 20px;
+    margin-bottom: 10vh;
+}
+.centre{
+display: flex;
+justify-content: center;
+margin-top: 2vh;
+font-size: large;
+}
+.imgtxtc{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pcname{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 3vw;
+    font-size: 2em;
+}
+.centre h1{
+    font-size: 3em;
+    margin-bottom: 5vh;
     
 }
