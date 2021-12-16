@@ -12,7 +12,9 @@
         <h1>Choose RAM Drive</h1>
     </div>
         <% ram.memory.forEach(element => { %>
+            <% if(element.module_type=="DDR4"){%>
             <div class="listing">
+               
                 <li><a href="ram/<%= element.brand %> <%= element.model %>/output"><%= element.brand %> <%= element.model %></a></li>
                 <% if(element.price[1]!="0.00"){ %>
                     <p class="price">₹<%= Math.round(Math.round(parseFloat(element.price[1])*74.3)) %> </p>
@@ -21,6 +23,6 @@
                 <% } %>
                 <p class="details">Physical Memory: <%= element.module_size.total/1000000000 %> GB, Type: <%= element.module_type %></p>
             </div>
-        <% }); %>  
+        <%}}); %>  
 </body>
 </html>
