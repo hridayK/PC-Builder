@@ -11,6 +11,10 @@
     <div class="heading">
         <h1>Choose a CPU cooler:</h1>
     </div>
+    <div class="search-box">
+        <input type="text" id="search" name="search" placeholder="Search Component">
+        <input type="button" id="search-exec"  value="search" onclick="filter()">
+    </div>
     <% coolers.cpu_cooler.forEach(element => { %>
         <div class="listing">
             <li><a href="coolers/<%= element.brand %> <%= element.model %>/storage"><%= element.brand %> <%= element.model %></a></li>
@@ -22,4 +26,5 @@
         </div>
     <% }); %> 
 </body>
+<script src="/images/search.js"></script>
 </html>

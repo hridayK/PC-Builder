@@ -11,6 +11,10 @@
     <div class="heading">
         <h1>Choose a CPU:</h1>
     </div>
+    <div class="search-box">
+        <input type="text" id="search" name="search" placeholder="Search Component">
+        <input type="button" id="search-exec"  value="search" onclick="filter()">
+    </div>
         <% cpus.cpu.forEach(element => { %>
             <% if(element.brand=="AMD" && element.cores>=6 && element.multithreading==true && element.tdp<=105 && !element.model.includes('nm')){ %>
                 <div class="listing">
@@ -24,4 +28,5 @@
                 </div>
         <% }}); %> 
 </body>
+<script src="/images/search.js"></script>
 </html>

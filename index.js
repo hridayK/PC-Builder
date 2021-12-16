@@ -12,7 +12,6 @@ fs.readFile('./build_data/pb.json', function (err, data) {
     if (err) 
         throw err;
     prebuild = JSON.parse(data);
-    console.log(prebuild);
 });
 
 app.get('/', (req, res) => {
@@ -42,4 +41,3 @@ app.use('/intel', intelRouter);
 app.use('/amd', amdRouter);
 
 app.listen(3000);
-

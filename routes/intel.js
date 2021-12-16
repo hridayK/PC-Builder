@@ -73,7 +73,7 @@ router.get('/cpu/:cpuName/motherboards/:motherboardName/gpu/:gpuName/coolers/:co
 });
 
 router.get('/cpu/:cpuName/motherboards/:motherboardName/gpu/:gpuName/coolers/:coolerName/storage/:storageName/ram', (req, res) => {
-    res.render('amd/ram',{ram:RAM});
+    res.render('intel/ram',{ram:RAM});
 });
 
 router.get('/cpu/:cpuName/motherboards/:motherboardName/gpu/:gpuName/coolers/:coolerName/storage/:storageName/ram/:ramName/output', (req, res) => {

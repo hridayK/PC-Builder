@@ -11,6 +11,10 @@
         <div class="heading">
             <h1>Choose a Motherboard</h1>
         </div>
+        <div class="search-box">
+            <input type="text" id="search" name="search" placeholder="Search Component">
+            <input type="button" id="search-exec"  value="search" onclick="filter()">
+        </div>
         <% mbds.motherboard.forEach(element => { %>
             <% if(selcpu.includes("Core i7-8") || selcpu.includes("Core i5-8") || selcpu.includes("Core i3-8") || selcpu.includes("Core i7-9") || selcpu.includes("Core i5-9") || selcpu.includes("Core i3-9") || selcpu.includes("Core i9-9")){ %>
                 <% if(element.socket=="LGA1151"  && !element.model.includes("/")){ %>
@@ -39,4 +43,5 @@
                         </div>
                 <% }}}); %>
 </body>
+<script src="/images/search.js"></script>
 </html>

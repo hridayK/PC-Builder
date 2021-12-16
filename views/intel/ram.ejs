@@ -11,6 +11,10 @@
     <div class="heading">
         <h1>Choose RAM Drive</h1>
     </div>
+    <div class="search-box">
+        <input type="text" id="search" name="search" placeholder="Search Component">
+        <input type="button" id="search-exec"  value="search" onclick="filter()">
+    </div>
         <% ram.memory.forEach(element => { %>
             <% if(element.module_type=="DDR4"){%>
             <div class="listing">
@@ -24,4 +28,5 @@
             </div>
         <% }}); %>  
 </body>
+<script src="/images/search.js"></script>
 </html>
